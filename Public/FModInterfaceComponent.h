@@ -45,8 +45,6 @@ public:
 	
 	UFModInterfaceComponent();
 
-	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
-
 	UFUNCTION(BlueprintCallable, Category = "Sound")
 	void PlayEvent();
 	
